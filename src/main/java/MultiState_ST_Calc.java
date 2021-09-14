@@ -32,7 +32,7 @@ public class MultiState_ST_Calc {
             }
 
         }
-        
+
         if (state.equalsIgnoreCase("IL")){
             tax = amount * (8 / 100);
         }
@@ -41,7 +41,7 @@ public class MultiState_ST_Calc {
         }
 
         Total = amount + tax;
-        System.out.println("The tax is " +tax+ "\nThe total is" +Total);
+        System.out.println("The tax is " +tax+ "\nThe total is " +Total);
 
     }
 }
